@@ -12,8 +12,9 @@ public class PilotServiceApplication {
 		SpringApplication.run(PilotServiceApplication.class, args);
 	}
 	// Impor the Model Mapper
+	/*
 	@Bean
 	public ModelMapper modelMapper() {
 		return new ModelMapper();
-	}
+	}*/
 }

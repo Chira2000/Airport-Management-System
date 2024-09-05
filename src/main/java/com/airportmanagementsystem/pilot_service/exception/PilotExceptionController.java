@@ -21,7 +21,7 @@ import org.springframework.web.context.request.WebRequest;
  * @author Tharusha Dilhara
  */
 @ControllerAdvice
-public class ExceptionController {
+public class PilotExceptionController {
 
     // Handle specific exception
     @ExceptionHandler(ResourceNotFoundException.class)
