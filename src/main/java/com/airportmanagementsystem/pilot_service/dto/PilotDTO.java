@@ -7,6 +7,10 @@ import lombok.NoArgsConstructor;
 
 import java.sql.Date;
 import java.sql.Time;
+/**
+ * This class is a Data Transfer Object (DTO) for the Pilot entity.
+ * It is used to transfer pilot data between different layers (Controller, Service, etc.).
+ */
 
 @NoArgsConstructor
 @AllArgsConstructor

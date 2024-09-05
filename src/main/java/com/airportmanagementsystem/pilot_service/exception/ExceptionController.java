@@ -6,7 +6,20 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
-
+/**
+ * Global exception handler for the application.
+ * <p>
+ * This class is responsible for handling different types of exceptions and returning appropriate
+ * error responses to the client.
+ * </p>
+ *
+ * <ul>
+ * <li>Handles {@link ResourceNotFoundException}</li>
+ * <li>Handles any general {@link Exception}</li>
+ * </ul>
+ *
+ * @author Tharusha Dilhara
+ */
 @ControllerAdvice
 public class ExceptionController {
 

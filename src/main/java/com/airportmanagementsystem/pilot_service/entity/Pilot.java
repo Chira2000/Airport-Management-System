@@ -8,7 +8,15 @@ import lombok.NoArgsConstructor;
 
 import java.sql.Date;
 import java.sql.Time;
-
+/**
+ * Represents a Pilot entity in the system.
+ * <p>
+ * This class is a JPA entity that maps to a database table for storing pilot details.
+ * It uses Lombok to generate boilerplate code like getters, setters, and constructors.
+ * </p>
+ *
+ * @author Tharusha Dilhara
+ */
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
