@@ -15,7 +15,7 @@ import java.util.List;
 public class PilotController {
 
     @Autowired
-    PilotService pilotService;
+    private PilotService pilotService;  // Using the PilotService interface
 
     @GetMapping("/getPilots")
     public List<PilotDTO> getPilot() {
