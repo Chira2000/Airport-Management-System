@@ -2,8 +2,13 @@ package com.airportmanagementsystem.pilot_service.service;
 
 import com.airportmanagementsystem.pilot_service.dto.PilotDTO;
 import java.util.List;
-
+/**
+ * Service interface for managing pilots.
+ * Provides methods for saving, updating, deleting, and retrieving pilots.
+ * This interface will be implemented by {@link PilotServiceImpl}.
+ */
 public interface PilotService {
+
     // Method to save a pilot
     PilotDTO savePilot(PilotDTO pilotDTO);
 

@@ -10,7 +10,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+/**
+ * Implementation of the {@link PilotService} interface for managing pilots.
+ */
 @Service
 @Transactional
 public class PilotServiceImpl implements PilotService {  // This class implements the interface

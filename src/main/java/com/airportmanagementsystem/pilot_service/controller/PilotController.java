@@ -8,7 +8,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+/**
+ * REST controller for managing pilots.
+ * Provides endpoints for saving, updating, deleting, and retrieving pilots.
+ */
 @RestController
 @CrossOrigin
 @RequestMapping(value = "api/v1/pilot")
