@@ -1,5 +1,4 @@
-package com.airportmanagementsystem.admin_service.dto;
-
+package com.airportmanagementsystem.hangar_service.dto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,6 +7,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class apiResponse {
+
     private  String message;
     private  boolean success;
+
 }
