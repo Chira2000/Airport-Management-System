@@ -26,12 +26,11 @@ import java.sql.Time;
 public class Pilot {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int pilotId;
-    private String pilotName;
-    private String licencesNumber;
+    private int pilot_id;
+    private String pilot_name;
+    private String licences_number;
     private String email;
-    private int phoneNumber;
-    private Date hireDate;
-    private Time flightHours;
-
+    private int phone_number;
+    private Date hire_date;
+    private Time flight_hours;
 }
