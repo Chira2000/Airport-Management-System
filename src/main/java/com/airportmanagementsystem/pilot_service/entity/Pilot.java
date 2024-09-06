@@ -1,6 +1,8 @@
 package com.airportmanagementsystem.pilot_service.entity;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -23,6 +25,7 @@ import java.sql.Time;
 @Data
 public class Pilot {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int pilotId;
     private String pilotName;
     private String licencesNumber;
