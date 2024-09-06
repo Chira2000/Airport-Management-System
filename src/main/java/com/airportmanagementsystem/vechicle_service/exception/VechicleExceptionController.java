@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 @RestControllerAdvice
-public class ExceptionController {
+public class VechicleExceptionController {
 
     @ExceptionHandler(VechicleNotFoundException.class)
     public ResponseEntity<ApiResponse> handleVechicleNotFoundException(VechicleNotFoundException e) {
